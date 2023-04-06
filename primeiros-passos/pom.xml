@@ -27,6 +27,36 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>top.jfunc.json</groupId>
+            <artifactId>json-gson</artifactId>
+            <version>1.8.3</version>
+        </dependency>
+        <dependency>
+            <groupId>yummy.json</groupId>
+            <artifactId>json</artifactId>
+            <version>0.2</version>
+        </dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20230227</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>org.json</artifactId>
+			<version>chargebee-1.0</version>
+		</dependency>
+        <dependency>
+            <groupId>edn-json</groupId>
+            <artifactId>edn-json</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+		<dependency>
+			<groupId>json-html</groupId>
+			<artifactId>json-html</artifactId>
+			<version>0.4.7</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -37,5 +67,12 @@
 			</plugin>
 		</plugins>
 	</build>
+    <repositories>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars</name>
+            <url>https://repo.clojars.org/</url>
+        </repository>
+    </repositories>
 
 </project>

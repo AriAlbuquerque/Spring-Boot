@@ -1,0 +1,24 @@
+
+      ********** SpringBoot:
+
+      * É uma ferramenta que nasceu a partir do Spring, um framework desenvolvido para a plataforma Java;
+      Baseado nos padrões de projetos, inversão de controle e injeção de dependência, ele inicia um projeto com todas as configurações necessárias para o tipo de bussiness da Aplicação, acelerando o processo de "codar";
+      Essa ferramenta oferece uma série de vantagens, como auxílio nas configurações iniciais necessárias para que os dev possam começar a codificar, contribui para projetos mais ágeis e organizados.
+      Enquanto o Sring Framework é baseado no padrão de injeção de dependências, o SPRINGBOOT foca na configuração automática;
+
+      * Starters: Descritores de dependências; Coeso, versões compatíveis, otimização do tempo; configuração simples; foco no NEGÓCIO;
+                           - data-jpa: Integração ao banco de dados via JPA-Hibernate;
+                           - data-mongodb: Interação com DB MongoDB;
+                           - web: Inclusão do contaniner Tomcat oara aplicações REST;
+                           - web-services: Webservices baseados na arquitetura SOAP;
+                           - batch: Implementação de JOBs de processos;
+                           - test: Disponibilização de recursos para testes unitários com JUnit;
+                           - openfeign: Cliente HTTP baseado em Interfaces;
+                           - actuator: Gerenciamento de monitoramento da aplicação;
+
+      @Bean: Beans são todos os objetos debtro de um Container;
+
+      @Component:
+
+      IoC:
+      DI:
