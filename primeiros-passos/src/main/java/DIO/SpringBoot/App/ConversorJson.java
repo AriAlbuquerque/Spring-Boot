@@ -1,7 +1,7 @@
 package DIO.SpringBoot.App;
 
 import com.google.gson.Gson;
-import json.ViaCepResponse;
+import DIO.SpringBoot.PrimeirosProjetos.json.ViaCepResponse;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Type;
